@@ -1,0 +1,72 @@
+body {
+  background-color: #fdfdfd;
+  font-size: 1.4em;
+  zoom: 260%;
+}
+
+@media only screen and (max-width: 2000px) {
+  body {
+    zoom: 100%;
+  }
+}
+
+.stgLogo {
+  width: 125px;
+  padding: 4px 0px;
+}
+
+.clock{
+  margin-top: 0.6em;
+
+}
+
+.clock-content{
+
+  font-size: 2em;
+    margin-top: -10px;
+    background-color: black;
+    color: white;
+}
+
+.zoomIco{
+  margin-top: 1em;
+}
+
+
+#navbar {
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
